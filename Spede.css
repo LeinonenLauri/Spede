@@ -1,0 +1,58 @@
+/*[class*="col-"] {
+  float:left;
+  padding: 40px;
+  border: 1px solid black;
+  
+}*/
+
+.colorbutton{
+  width:80px;
+  height:80px;
+  padding:1px;
+  border: 10px solid black;
+  border-radius: 50%;
+  
+}
+
+.row{
+    display:-webkit-flex;
+  display:flex;
+  -webkit-flex-direction:row;
+  flex-direction:row;
+  justify-content:center;
+  -webkit-justify-content:center;
+  padding: 0px;
+  width:auto;
+}
+.askforsize{
+  padding:20px;
+}
+.gamearea { 
+
+}
+
+.infotext {
+  padding: 20px;
+}
+.infotextbox {
+  padding: 10px;
+  text-align:center;
+}
+
+.explanation{
+  text-align: center;
+  padding:10px;
+}
+
+.main-heading{
+  text-align: center;
+  padding:10px;
+}
+
+.askforsize{
+  text-align:center;
+}
+
+.background{
+  background-color:white;
+}
